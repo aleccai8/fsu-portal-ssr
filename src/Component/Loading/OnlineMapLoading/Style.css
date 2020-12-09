@@ -1,0 +1,39 @@
+.mapLoadingLogoHeight {
+    height: 100vh;
+}
+.mapLoadingLogoimg {
+    width: 140px;
+    height: 140px;
+    right: 1000px;
+}
+.mapLoadingLogoAnimation {
+    animation: mapLodingLogoAnimation 1s;
+    animation-iteration-count: infinite;
+}
+.OnlineMAP {
+    animation: OnlineMAP 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes OnlineMAP {
+    0% {
+        opacity: 0;
+        right: 200px;
+    }
+    100% {
+        right: 0px;
+        opacity: 1;
+    }
+}
+@keyframes mapLodingLogoAnimation {
+    0% {
+        opacity: 0;
+        left: 200px;
+    }
+    100% {
+        opacity: 1;
+        left: 0px;
+    }
+}
+.mapLoadingbody {
+    background-color: rgb(48, 48, 48);
+}

@@ -1,0 +1,100 @@
+.ffl-wrapper {
+  position: relative;
+  display: block;
+  padding-top: 1rem;
+  /*66666666233333332005*/
+}
+.ffl-wrapper .ffl-label {
+  transition-property: all;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  position: absolute;
+  white-space: nowrap;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  pointer-events: none;
+  top: 1.25rem;
+}
+.ffl-wrapper.ffl-floated .ffl-label {
+  top: 0;
+}
+
+.ffl-label {
+  color: #a8a8a8;
+  line-height: 1.2;
+}
+.ffl-floated .ffl-label {
+  color: #e6e6e6;
+  font-size: 0.75rem;
+}
+
+form {
+  max-width: 30rem;
+  margin: 2rem auto 0;
+  background-color: #ffffff;
+  padding: 1rem;
+}
+form:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.inputt,
+textarea,
+select {
+  transition: border-bottom 100ms ease;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 1rem;
+  box-shadow: none;
+  appearance: none;
+  outline: none;
+  background-color: transparent;
+  border-style: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(116, 116, 116, 0.2);
+  height: 1.875rem;
+}
+.inputt:hover,
+textarea:hover,
+select:hover {
+  border-bottom-width: 1px;
+  border-bottom-color: #bebebe;
+}
+.inputt:focus,
+textarea:focus,
+select:focus {
+  border-bottom-width: 1px;
+  border-bottom-color: #ececec;
+}
+
+textarea {
+  resize: none;
+  min-height: 1.875rem;
+}
+
+label > span {
+  color: #dddddd;
+}
+
+[type="button"] {
+  transition: background-color 0.3s ease;
+  border: none;
+  background-color: #0289f3;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 1rem;
+  float: right;
+}
+[type="button"]:hover,
+[type="button"]:focus {
+  background-color: #027bda;
+}
+

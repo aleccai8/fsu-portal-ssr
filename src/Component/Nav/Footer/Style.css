@@ -1,0 +1,46 @@
+.footerBackground {
+    background-color: rgb(64,64,64);
+    background-image: linear-gradient(135deg, #646464 0%, #343434 100%);
+    background-image: -webkit-linear-gradient(135deg, #646464 0%, #343434 100%);
+    background-image: -moz-linear-gradient(135deg, #646464 0%, #343434 100%);
+    background-image: -o-linear-gradient(135deg, #646464 0%, #343434 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0px -700px;
+}
+
+
+.footerLogoImg {
+    height: 75px;
+    width: 230px;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.phoneTop {
+    padding-top: 0px;
+}
+
+@media screen and (max-width: 824px) {
+    .phoneTop {
+        padding-top: 20px;
+    }
+}
+
+.XOPTIONX {
+    color: white;
+    font-size: 15px;
+    text-shadow: 1px 1px #747474;
+    margin: 5px;
+    transition: color 0.3s;
+}
+
+.XOPTIONX:hover {
+    color: rgb(231, 231, 231);
+}
+
+.footer{
+}

@@ -1,0 +1,313 @@
+.ztys {
+    color: white;
+    text-shadow: 1px 1px #030303;
+}
+.shutDown {
+    color: rgb(219, 219, 219);
+    transition: color 0.3s;
+    cursor: pointer;
+}
+.shutDown:hover {
+    color: rgb(255, 47, 47);
+}
+.mapDetails {
+    padding: 20px;
+    background-color: rgb(29, 29, 29);
+    color: rgb(223, 223, 223);
+    position: absolute;
+    z-index: 34;
+    border-color: rgb(223, 223, 223);
+    border-top: solid;
+    border-width: 2px;
+}
+.mapDetailsAvatar {
+    height: 80px;
+    width: 80px;
+    border-color: rgb(223, 223, 223);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+}
+.brightness {
+    margin: 8px;
+    border-color: rgb(156, 156, 156);
+    margin-right: 0px;
+    margin-left: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+.searchleft {
+    width: 100%;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(41, 41, 41);
+    border-color: rgb(156, 156, 156);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.searchleftLD {
+    width: 100%;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 0px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(53, 53, 53);
+    font-size: 20px;
+}
+.search {
+    width: 100%;
+    margin: 0px;
+    color: rgb(214, 214, 214);
+    background-color: rgb(43, 43, 43);
+    border-color: rgb(156, 156, 156);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0px;
+    padding: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.search:focus {
+    color: white;
+    background-color: rgb(27, 27, 27);
+}
+.mainConsole {
+    color: white;
+    position: absolute;
+    z-index: 16;
+    background-color: rgb(53, 53, 53);
+    margin-top: 0px;
+    overflow-x: hidden; /*x轴禁止滚动*/
+    overflow-y: scroll;/*y轴滚动*/
+}
+.Fold {
+    z-index: 16;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.Fold:hover {
+    background-color: rgb(32, 32, 32);
+}
+.flightInfoWrapper{
+    padding: 0;
+    font-size: 10px;
+    position: fixed;
+    z-index: 2000;
+    width: 33.4em;
+    min-width: 300px;
+    box-shadow: 0 0 0.4em 0 rgba(50,50,50,0.5);
+    flex-direction: column;
+}
+
+@media (max-width: 768px){
+    .flightInfoWrapper{
+        display: none;
+    }
+}
+
+.flightInfoTitle {
+    background: rgb(32,32,32);
+    width: 100%;
+    height: 60px;
+}
+
+.flightInfoTitleText {
+    padding-left: 10px;
+    padding-top: 5px;
+    color: #f8c024;
+    font-size: 2rem;
+    display: inline-block;
+}
+
+.flightInfoOverlayClose {
+    color: #ffffff;
+    position: absolute;
+    float: right;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+    z-index: 21;
+}
+
+.flightInfoScroll{
+    position: relative;
+    max-height: calc(100vh - 121px);
+    overflow-y: auto;
+    background: white;
+}
+
+.flightInfoStatusIcon{
+    position: absolute;
+    width: 4.6em;
+    left:calc(50% - 2.3em);
+    top: 10px;
+}
+
+.flightInfoAirportD{
+    width: 49%;
+    height: 85px;
+    background: #ededed;
+    display: inline-block;
+    text-align: center;
+    padding-right: 2px;
+}
+
+.flightInfoAirportA{
+    width: 49%;
+    height: 85px;
+    float: right;
+    background: #ededed;
+    display: inline-block;
+    text-align: center;
+    padding-left: 2px;
+}
+
+.flightInfoAirportText{
+    font-size: 2.5rem;
+    font-weight: 400;
+    background: rgb(234,234,234);
+}
+
+.flightInfoIconPanel{
+    width: 4.0em;
+    border-right: 0.2em solid #fff;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    background: #ddd;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.whiteDivider{
+    border-top: .2em solid white;
+}
+
+.flightDataRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1.2em;
+    min-height: 3em;
+}
+
+.flightDataRow:last-child{
+    margin-bottom: .2em;
+}
+
+.flexWrapper{
+    flex-grow: 1;
+    padding: 1em 1em 1em 1em;
+    background: rgb(236,236,242);
+    width: 29.4em;
+}
+
+.flightDataSpanTitle{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: #6d6d6d;
+    margin-bottom: 0.345em;
+}
+
+.flightDataSpanData{
+    text-transform: none;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #393939;
+}
+
+.flightData{
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+}
+
+
+.airlineInfo{
+    min-height: 5.8em;
+    background: #303030;
+}
+
+.userListBox {
+    background-color: rgb(37, 37, 37);
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0;
+    border-color: rgb(156, 156, 156);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.userListBox:hover {
+    background-color: rgb(31, 31, 31);
+}
+.dataBox {
+    margin: 10px;
+    padding: 10px;
+    /*height: 45px;*/
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0px;
+    border-color: rgb(156, 156, 156);
+    background-color: rgb(32, 32, 32);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dataBox:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+}
+.dataBoxClick {
+    background-color: rgb(255, 255, 255);
+    color: rgb(34, 34, 34);
+}
+.listBox {
+    height: 400px;
+    overflow: auto;
+    margin: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0px;
+    border-color: rgb(156, 156, 156);
+}
+.fold {
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.fold:hover {
+    background-color: white;
+    color: black;
+}
+/*html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}*/
+.onlineMap {
+    position: absolute;
+    z-index: 1;
+}
+
+.aircraftDataIcon{
+    width: 2.8em;
+    height: 2.8em;
+}

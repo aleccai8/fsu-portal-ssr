@@ -1,0 +1,1 @@
+export const SET_SSR_PAGE_STATUS = Symbol();

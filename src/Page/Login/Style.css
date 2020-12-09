@@ -1,0 +1,103 @@
+.loginBody{
+    overflow-y:hidden;
+}
+
+
+.loginBackground {
+    background: url("./Images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.loginNav{
+    background-color:rgb(48, 48, 48);
+    background-size:100% 100%;
+    min-height: 100vh;
+
+}
+.backHref{
+    color:rgb(173, 173, 173);font-size:13px;padding-left:0px;
+    text-decoration:none;
+    transition: color 0.3s
+}
+.backHref:hover{
+    text-decoration:none;
+    color:rgb(241, 241, 241);
+}
+.ItSUnbelievable{
+    color:rgb(173, 173, 173);font-size:13px;
+    transition: color 0.3s
+}
+.ItSUnbelievable:hover{
+    color:rgb(245, 245, 245);
+}
+.loginBotton {
+    padding: 6px 25px !important;
+    font-size: 15px !important;
+    color: rgb(231, 231, 231) !important;
+    background-color: rgb(51, 51, 51) !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-color: rgb(136, 136, 136) !important;
+    border-radius: 2px !important;
+    transition: background-color 0.3s, color 0.3s !important;
+}
+.loginBotton:hover {
+    background-color: rgb(34, 34, 34) !important;
+    color: rgb(255, 255, 255) !important;
+}
+.vaptcha-init-main {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color: #EEEEEE;
+}
+​
+.vaptcha-init-loading {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center
+}
+​
+.vaptcha-init-loading>a {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: none;
+}
+​
+.vaptcha-init-loading>a img {
+    vertical-align: middle
+}
+​
+.vaptcha-init-loading .vaptcha-text {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #CCCCCC;
+    vertical-align: middle
+}
+.loginImg{
+    height:75px;
+    width:230px;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.userPassFont{
+    color:rgb(255, 166, 0);
+    font-size:13px;
+}
+.errorFont{
+    color:rgb(255, 166, 0);
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:14px;
+    text-align: center
+}
+

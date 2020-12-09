@@ -1,0 +1,19 @@
+
+.loadingLogoImg {
+    width: 140px;
+    height: 140px;
+    animation: loadingLogoAnimation 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes loadingLogoAnimation {
+    0% {
+        width: 110px;
+        height: 110px;
+        opacity: 0;
+    }
+    100% {
+        width: 140px;
+        height: 140px;
+        opacity: 1;
+    }
+}

@@ -1,0 +1,27 @@
+.singleBox {
+    padding: 5px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 0px;
+    border-color: rgb(179, 179, 179);
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s, background-color 0.3s;
+}
+.singleBox:hover {
+    color: black;
+    background-color: white;
+}
+.singBoxClick {
+    color: black;
+    background-color: white;
+}
+.menuBox {
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0px;
+    border-color: rgb(156, 156, 156);
+    color: white;
+}
